@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>पितृलाई पिण्ड: बैकुण्ठधाम</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+ 
+    <!-- Header Section with toggle button for sidebar -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">बैकुण्ठधाम</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <span class="toggle-btn" onclick="openSidebar()">&#9776;</span>
+        </div>
+    </header>
+
+    <script>
+        function openSidebar() {
+            document.getElementById("sidebar").style.width = "250px";
+        }
+
+        function closeSidebar() {
+            document.getElementById("sidebar").style.width = "0";
+        }
+    </script>
+   <!-- Sidebar Section -->
+   <nav class="sidebar" id="sidebar">
+    <a href="javascript:void(0)" class="close-btn" onclick="closeSidebar()">&times;</a>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Our Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+
+ <!-- Hero Section -->
+<section class="hero" id="hero">
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="video/1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+        <h1>
+            <div class="fadeInUp-animation">
+            <ul class="box">
+                <li>स्मरन्</li>
+                <li> पितृभ्यः</li>
+                <li> सततं,</li>
+                <li> यः</li>
+                <li>पिण्डं</li>
+                <li>समर्पयेत्।</li>
+                <li>आयुः,</li>
+                <li> आरोग्यम्</li>
+                <li> अश्वमेधं,</li>
+                <li>पुत्रपौत्रसुखं</li>
+                <li>लभेत्॥</li>
+            </ul>
+            </div>
+        </h1>
+        <h2>पितृलाई पिण्ड: बैकुण्ठधाम</h2>
+        <p><span class="typewriter">A Sacred Place of Eternal Peace</span></p>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About बैकुण्ठधाम</h2>
+            <p>बैकुण्ठधाम is a sacred place where families come to offer पिण्ड, a ritual performed for the peace of the departed souls. The eternal significance of these rites has been passed down through generations, symbolizing the journey from the physical world to the spiritual realm.</p>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="StockCake-Snowy cabin solitude_1727075449.jpg" alt="Sacred Ritual" />
+                </div>
+                <div class="about-text">
+                    <p>At बैकुण्ठधाम, the tranquil surroundings, flowing river, and traditional rituals offer a serene environment for families to honor their ancestors. Our services are designed to guide you through each step of the rituals, ensuring they are performed with the utmost respect and devotion.</p>
+                    <p>We believe in preserving these time-honored traditions, helping future generations understand the importance of the spiritual journey and offering eternal peace to their loved ones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Services Section -->
+      <section class="services" id="services">
+        <div class="container">
+            <h2>Our Sacred Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="StockCake-Snowy cabin solitude_1727075449.jpg" alt="Ritual Service" />
+                    </div>
+                    <h3>Pinda Daan (पिण्डदान)</h3>
+                    <p>Offering पिण्ड is a sacred ritual performed to honor ancestors and ensure their peace in the afterlife.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="StockCake-Snowy cabin solitude_1727075449.jpg" alt="Funeral Service" />
+                    </div>
+                    <h3>Antim Sanskar (अन्तिम संस्कार)</h3>
+                    <p>We provide full guidance in performing traditional funeral rites to ensure the soul's journey to peace.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="StockCake-Snowy cabin solitude_1727075449.jpg" alt="Shradh Service" />
+                    </div>
+                    <h3>Shradh (श्राद्ध)</h3>
+                    <p>The श्राद्ध ceremony is performed annually in memory of ancestors, invoking blessings and peace for the family.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Testimonials Section -->
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2>What Families Say</h2>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <p>"बैकुण्ठधाम offered a peaceful and spiritual environment for our family. The rituals were conducted with utmost respect and care. We found solace in their services."</p>
+                    <h3>- Ram Prasad Sharma</h3>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The calmness and serenity of बैकुण्ठधाम helped us find closure during a difficult time. Their team was compassionate and guided us through the rituals smoothly."</p>
+                    <h3>- Sita Devi</h3>
+                </div>
+                <div class="testimonial-card">
+                    <p>"An experience that brought our family together in a spiritual journey. बैकुण्ठधाम is a place where tradition meets tranquility."</p>
+                    <h3>- Krishna Bahadur</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Gallery Section -->
+      <section class="gallery" id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="StockCake-Snowy cabin solitude_1727075449.jpg" alt="Ceremony Image 1" />
+                </div>
+                <div class="gallery-item">
+                    <img src="StockCake-Snowy cabin solitude_1727075449.jpg" alt="Ceremony Image 2" />
+                </div>
+                <div class="gallery-item">
+                    <img src="StockCake-Snowy cabin solitude_1727075449.jpg" alt="Ceremony Image 3" />
+                </div>
+                <div class="gallery-item">
+                    <img src="StockCake-Snowy cabin solitude_1727075449.jpg" alt="Ceremony Image 4" />
+                </div>
+                <div class="gallery-item">
+                    <img src="StockCake-Snowy cabin solitude_1727075449.jpg" alt="Ceremony Image 5" />
+                </div>
+                <div class="gallery-item">
+                    <img src="StockCake-Snowy cabin solitude_1727075449.jpg" alt="Ceremony Image 6" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Email:</strong> info@example.com</p>
+                    <p><strong>Phone:</strong> +977 123 456 7890</p>
+                    <p><strong>Address:</strong> Pashupati, Kathmandu, Nepal</p>
+                </div>
+                <div class="map">
+                    <h3>Our Location</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.5601192048725!2d85.3246!3d27.7149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18f5d3e1c7c3%3A0x3ed4b27b6c12fda1!2sPashupatinath%20Temple!5e0!3m2!1sen!2snp!4v1615565088672!5m2!1sen!2snp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-policy">
+                <h4>Policies</h4>
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank"><img src="icons8-facebook-48.png" alt="Facebook"></a></li>
+                    <li><a href="https://twitter.com" target="_blank"><img src="icons8-twitter-48.png" alt="Twitter"></a></li>
+                    <li><a href="https://instagram.com" target="_blank"><img src="icons8-instagram-48.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 पितृलाई पिण्ड: बैकुण्ठधाम. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
